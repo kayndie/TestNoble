@@ -1,0 +1,100 @@
+/* General Body Styling */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f4f4f4;
+}
+
+/* Headings */
+h1, h2 {
+   text-align: center;
+   color: #333;
+}
+
+/* Header Styling */
+.header {
+   background-color: #4CAF50;
+   color: white;
+   padding: 15px;
+   text-align: center;
+}
+
+/* Alert Styling */
+.alert {
+   background-color: #f44336;
+   color: white;
+   padding: 20px;
+   margin-bottom: 15px;
+   border-radius: 5px;
+}
+
+.alert strong {
+   font-weight: bold;
+}
+
+/* Form Styling */
+form {
+   max-width: 400px; /* Limit form width */
+   margin: 20px auto;
+   padding: 15px;
+   background-color: #fff;
+   border-radius: 5px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensure inputs take full width */
+form input {
+   width: 100%;
+   padding: 12px;  /* Increased padding for better touch area */
+   margin: 10px 0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   box-sizing: border-box;  /* Ensures padding is included in the width */
+}
+
+/* Button Styling */
+form button {
+   width: 100%;
+   padding: 12px;
+   background-color: #4CAF50;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+form button:hover {
+   background-color: #45a049;
+}
+
+/* Table Styling */
+table {
+   width: 100%;
+   border-collapse: collapse;
+   margin: 20px 0;
+}
+
+table, th, td {
+   border: 1px solid #ddd;
+   padding: 8px;
+}
+
+th {
+   background-color: #4CAF50;
+   color: white;
+}
+
+td {
+   text-align: center;
+}
+
+/* Link Styling */
+a {
+   color: #4CAF50;
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: underline;
+}
